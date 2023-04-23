@@ -1,0 +1,65 @@
+// ----------------------------- LARAVEL - ARQUIVOS IMPORTANTES -----------------------------
+--> /.env 
+    # Arquivo de parametros de ambiente do laravel, conexão com banco de dados, app url, key, etc.
+
+--> /.package.json 
+    # Arquivo de dependencias do node.js que também são usadas no laravel.
+
+--> /config/app.php
+    # Arquivo de configurações, para ativação do eloquent, injeção de dependencias, etc.
+
+--> /routes/web.php
+    # Arquivo de definição das rotas do app.
+
+--> /app/http/middleware/kernel.php
+    # Arquivo de definição dos middlewares. 
+
+--> /app/console/kernel.php
+    # Arquivo de configurações para adição dos comandos, KeyGenerateCommand, etc. 
+
+// ----------------------------- REACT - ARQUIVOS IMPORTANTES E DIRETÓRIO -----------------------------
+
+--> /webpack.mix.js
+    # Arquivo de configuração do Laravel-mix, obrigatório para compilação do React
+
+--> /resources/js/app.js
+    # Arquivo principal do React em que é instanciado as classes e executado o React
+
+--> /resources/js/components/...
+    # Diretório dos componentes do react
+
+// ----------------------------- LARAVEL - DIRETÓRIOS -----------------------------
+
+--> /public/...
+    # Diretório onde é feito o acesso ao app pelo usuário.
+
+--> /resources/...
+    # Diretório dos arquivos das views de extensão blade (*.blade.php), css, js e localization.
+
+--> /resources/css/...
+    # Diretório dos arquivos CSS das views de extensão blade (*.blade.php).
+
+--> /database/...
+    # Diretório dos arquivos do banco de dados: migrations, seeders e factories.
+
+// ----------------------------- LARAVEL - Repository Pattern -----------------------------
+--> /app/models/...
+    # Diretório dos models do app. 
+
+--> /app/repositories/...
+    # Diretório dos repositories do app. 
+
+--> /app/services/...
+    # Diretório dos services do app. 
+
+--> /app/http/controllers/...
+    # Diretório dos controllers do app. 
+
+--> /app/providers/...
+    # Diretório dos providers do app. 
+
+--> /app/http/middlewares/...
+    # Diretório dos middleware do app. 
+
+--> /app/helpers/...
+    # Diretório dos helpers. 

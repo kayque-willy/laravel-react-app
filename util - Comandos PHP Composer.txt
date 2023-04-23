@@ -1,0 +1,39 @@
+-----------------------------------------------CRIAÇÃO DO PROJETO--------------------------------------------------
+
+> $  composer init //--------------// Inicia o projeto Composer, deve ser criado na raiz da pastas de todos os projetos "/www/..."
+
+> $  composer create-project laravel/laravel name-project //--------------// Cria o projeto laravel, isso cria uma subpasta com o nome do projeto "/www/name-project"
+
+-------------------------------------------INSTALAÇÃO DE DEPENDENCIAS--------------------------------------------------
+
+> $  php artisan key:generate //--------------// Gera a app-key
+
+> $  npm install postcss --save-dev //--------------// Instalação do React
+
+> $  npm install laravel-mix --save-dev //--------------// Instalação do React
+
+> $  npm install --save-dev react react-dom //--------------// Instalação do React
+
+--------------------------------------------------ARTISAN (ORM)---------------------------------------------------
+
+> $  php artisan make:model name-model --migration //--------------// Cria a model e a migration.
+
+> $  php artisan make:migration name-model //--------------// Cria a migration de acordo com o nome da tabela
+
+> $  php artisan migrate //--------------// Executa todas as migrations pendentes
+
+> $  php artisan migrate:refresh //--------------// Remove todas as tabelas e reexecuta as migrations
+
+> $  php artisan migrate:reset //--------------// Desfaz todas as migrations
+
+> $  php artisan migrate:rollback //--------------// Desfaz a ultima migration
+
+------------------------------------------------------BUILD---------------------------------------------------
+
+> $  npm run dev //--------------// Obrigatório para compilar o React. Compila os arquivos js e css da pastar ../resources/ para a pasta /public/js e public/css
+
+------------------------------------------------------EXECUÇÃO---------------------------------------------------
+
+> $  php artisan serve //--------------// Executa o projeto direto no servidor de deploy do PHP, dessa forma não precisa executar o wamp
+
+---------------------------------------------------------------------------------------------------------
