@@ -13,13 +13,13 @@
 <body>
     <h1>Laravel e React App</h1>
     <div id="hello-react"></div>
+    <div id="fact"></div>
     <div id="counter"></div>
     <footer _ngcontent-rgm-c9="" id="anchor-footer">
         <div>
             © 2023 - Author: <a href="https://github.com/kayque-willy">Kayque Oliveira</a>
         </div>
     </footer>
-
     {{-- <script src="{{ asset('js/manifest.js') }}"></script>
     <script src="{{ asset('js/vendor.js') }}"></script> --}}
     <script src="{{ asset('js/app.js') }}"></script>

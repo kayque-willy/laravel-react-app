@@ -1,16 +1,18 @@
 // resources/js/components/HelloReact.js
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from "react-dom/client";
 
 export default function HelloReact() {
     console.log("react render");
     return (
-        <h1>Hello React!</h1>
+        <h1>Gerador de frases</h1>
     );
 }
 
+const rootElement = document.getElementById("hello-react");
+const root = createRoot(rootElement);
+
 if (document.getElementById('hello-react')) {
-    console.log("react render");
-    ReactDOM.render(<HelloReact />, document.getElementById('hello-react'));
+    root.render(<HelloReact />);
 }

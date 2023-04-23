@@ -4,4 +4,5 @@ import './bootstrap';
 
 // React Components
 import './components/HelloReact';
-import './components/Counter';
+// import './components/Counter';
+import './components/Fact';
