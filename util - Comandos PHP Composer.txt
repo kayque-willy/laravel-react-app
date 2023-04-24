@@ -34,6 +34,8 @@
 
 ------------------------------------------------------EXECUÇÃO---------------------------------------------------
 
+> $  npm run watch //--------------// Recompila o projeto a cada modificação em tempo de execução.
+
 > $  php artisan serve //--------------// Executa o projeto direto no servidor de deploy do PHP, dessa forma não precisa executar o wamp
 
 ---------------------------------------------------------------------------------------------------------

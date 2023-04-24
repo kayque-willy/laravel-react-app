@@ -17,3 +17,6 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
+
+// O browsersync é obrigatório para recompilação em tempo real
+mix.browserSync('127.0.0.1:8000');
